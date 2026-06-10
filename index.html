@@ -7,34 +7,26 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-white">
- <header>
-    <div class="relative ">
-        <div class=" absolute right-9 flex flex-row gap-3  ">
-            <h1 class="">
-Become an agent
-            </h1>
-            <h1>
-                Partnership
-            </h1>
-            <img src="/univer/en.svg">
-
-</div>
-
-
+    
+ <header class="h-16">
+    <div class="relative h-full">
+        <div class="absolute right-9 top-1/2 -translate-y-1/2 flex flex-row gap-3 items-center">
+            <a href="/agent">Become an agent</a>
+            <a href="/partnership">Partnership</a>
+            <img class="w-8 h-auto rounded-lg" src="/univer/en.svg">
+        </div>
     </div>
-    
- </header>
+</header>
  <section>
-    
-    <div class=" pt-10 pl-25 flex flex-row gap-12 mt-10 relative">
-        <img src="/univer/home.svg">
+    <div class=" pt-10 pl-25 flex flex-row gap-12  relative ">
+        <img class="pb-8 h8 w-auto" src="/univer/home.svg">
         <h2 class="font-bold">Universities</h2>
         <h2 class="font-bold">Masters</h2>
         <h2 class="font-bold">Language Schools</h2>
         <h2 class="font-bold">Summer Schools</h2>
         <h2 class="font-bold">High schools</h2>
-        <div class="absolute right-36 px-6 py-3 bg-blue-300 rounded-[10px]  ">
-            <button class="text-black">Login</button>
+        <div class="absolute right-36 px-6 py-3 bg-green-300 rounded-[10px]  ">
+            <button class="text-black font-bold">Login</button>
         </div>
     </div>
     
@@ -96,58 +88,49 @@ Become an agent
     </div>
 </div>
    </div>
- 
-<div class="mt-8 border-t border-gray-200 pt-12 pl-12">
-  <h3 class="font-bold text-black text-[30px]">Why Choose Uni4Edu?</h3>
-  <p class="pt-3 text-gray-500">Uni4Edu brings together thousands of schools and programs on a single platform, making it easy for students to apply quickly and access free <br> counseling, visa support, and exclusive scholarship opportunities.</p>
-  
-
-  <div class="relative">
-    <div class="grid grid-cols-3 gap-6 mt-8 max-w-6xl">
-       <div class = "bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
-                
-            <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-icon-1760717144505-PHOTO_URL.png">
-            <h1 class="font-bold text-[20px]">Wide Selection of Schools</h1>
-            <p>Explore thousands of universities,<br> colleges, and language schools <br> worldwide, and find the one that <br>perfectly matches your goals and <br> dreams.</p>
-        </div>
-
-        <div class = "bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
-                
-            <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-1760717216760-PHOTO_URL.png">
-            <h1 class="font-bold text-[20px]">Personalized Guidance</h1>
-            <p>Explore thousands of universities,<br> colleges, and language schools <br> worldwide, and find the one that <br>perfectly matches your goals and <br> dreams.</p>
-        </div>
-        <div class = "bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
-                
-            <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-icon-1760717172108-PHOTO_URL.png">
-            <h1 class="font-bold text-[20px]">
-Verified Institutions</h1>
-            <p>Explore thousands of universities,<br> colleges, and language schools <br> worldwide, and find the one that <br>perfectly matches your goals and <br> dreams.</p>
-        </div>
-        <div class="bg-white mx-10 mt-8 rounded-2xl shadow p-8 flex flex-row gap-56 pb-8">
-            <div class="flex-1 text-center border-r border-gray-200 py-4 px-3">
-                <p class="text-3xl font-bold text text-gray-900">50.000 +</p>
-                <p class="text-gray-500 mt-1"> Courses and Programs</p>
-
-            </div>
-            <div class="flex-1 text-center border-r border-gray-200 py-4 px-3">
-                <p class="text-3xl font-bold text text-gray-900">150 +</p>
-                <p class="text-gray-500 mt-1"> Study Destination</p>
-
-            </div>
-            <div class="flex-1 text-center border-r border-gray-200 py-4px-3">
-                <p class="text-3xl font-bold text text-gray-900">%98 +</p>
-                <p class="text-gray-500 mt-1"> Success Rate</p>
-
-            </div>
-        </div>
-
-        
-
-    
-
-  </div>
 </div>
+
+<section class="bg-gray-100 py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="font-bold text-black text-[30px]">Why Choose Uni4Edu?</h3>
+    <p class="pt-3 text-gray-500">Uni4Edu brings together thousands of schools and programs on a single platform, making it easy for students to apply quickly and access free counseling, visa support, and exclusive scholarship opportunities.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+      <div class="bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
+        <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-icon-1760717144505-PHOTO_URL.png">
+        <h1 class="font-bold text-[20px]">Wide Selection of Schools</h1>
+        <p class="text-gray-500">Explore thousands of universities, colleges, and language schools worldwide, and find the one that perfectly matches your goals and dreams.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
+        <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-1760717216760-PHOTO_URL.png">
+        <h1 class="font-bold text-[20px]">Personalized Guidance</h1>
+        <p class="text-gray-500">Get support through your study abroad journey, from choosing a program to understanding your application steps.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg flex flex-col p-8 items-center text-center gap-3">
+        <img class="w-12 h-12 object-contain" src="/univer/why-uni-feature-icon-1760717172108-PHOTO_URL.png">
+        <h1 class="font-bold text-[20px]">Verified Institutions</h1>
+        <p class="text-gray-500">Connect with trusted schools and programs so you can apply with more confidence and less confusion.</p>
+      </div>
+    </div>
+
+    <div class="mt-10 bg-white rounded-xl shadow-md p-8 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+      <div class="text-center px-4 py-4 md:py-0">
+        <p class="text-3xl md:text-4xl font-bold text-slate-800">50.000 +</p>
+        <p class="text-gray-500 mt-2">Courses and Programs</p>
+      </div>
+      <div class="text-center px-4 py-4 md:py-0">
+        <p class="text-3xl md:text-4xl font-bold text-slate-800">150 +</p>
+        <p class="text-gray-500 mt-2">Study Destinations</p>
+      </div>
+      <div class="text-center px-4 py-4 md:py-0">
+        <p class="text-3xl md:text-4xl font-bold text-slate-800">%98</p>
+        <p class="text-gray-500 mt-2">Success Rate</p>
+      </div>
+    </div>
+  </div>
+</section>
    
          <div class="bg-gray-200 max-w-full mx-auto pb-7 ">
           <div>
